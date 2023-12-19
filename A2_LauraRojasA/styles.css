@@ -1,0 +1,71 @@
+.header-section {
+    display: flex;
+    flex-direction: column;
+    align-items: left; 
+    font-family: 'Roboto', sans-serif;
+    margin-left: 60px;
+}
+
+.headline {
+    font-size: 28px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+.summary {
+    font-size: 20px;
+    color: gray;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px; 
+    margin-right: 60px;
+}
+
+.byline-section {
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    color: darkgrey;
+    margin-top: 10px; /* Adjusted margin for separation */
+    margin-bottom: 20px; /* Added margin at the bottom for spacing */
+}
+
+.article-body {
+    width: 600px;
+    font-family: 'Roboto', sans-serif;
+    margin-block: 40px;
+    margin-left: 60px;
+}
+
+.p {
+    display: block;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+}
+
+.photo-grid {
+    display: flex;
+    justify-content: space-between; /* Added space between items */
+    flex-wrap: wrap;
+    margin-top: 20px; /* Added margin at the top for spacing */
+}
+
+.photo-grid .photo {
+    flex: 0 0 48%; /* Adjusted flex property for two photos in line with margins */
+    margin-bottom: 20px; /* Added margin at the bottom for spacing */
+}
+
+.photo-grid .photo img {
+    width: 100%; /* Made images responsive */
+    height: auto;
+}
+
+.chart {
+    margin-left: 20px;
+    margin-top: 40px;
+    width: 500px;
+    height: auto;
+    font-family: 'Roboto', sans-serif;
+}
